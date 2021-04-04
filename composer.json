@@ -3,6 +3,7 @@
     "description": "Customer Satisfaction Module",
     "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Guy Irene",

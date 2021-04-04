@@ -1,0 +1,25 @@
+{
+    "name": "rlc/csat",
+    "description": "Customer Satisfaction Module",
+    "license": "1.0",
+    "authors": [
+        {
+            "name": "Guy Irene",
+            "email": "guyirene.asidoy@robinsonsland.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Rlc\\Csat\\CsatServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Rlc\\Csat\\": "src/"
+        }
+    }
+}

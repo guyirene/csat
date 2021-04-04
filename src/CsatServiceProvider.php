@@ -1,5 +1,4 @@
 <?php
-
 namespace Rlc\Csat;
 
 use Illuminate\Support\ServiceProvider;

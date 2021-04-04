@@ -8,9 +8,9 @@ Install the latest version with
 
 ```bash
 $ composer require rlc/csat 
-$ php artisan migrate 
 $ php artisan vendor publish  
 	Find Provider: Rlc\Csat\CsatServiceProvider 
+$ php artisan migrate 
 ```
 
 ## Basic Usage

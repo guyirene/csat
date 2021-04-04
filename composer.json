@@ -1,7 +1,7 @@
 {
     "name": "rlc/csat",
     "description": "Customer Satisfaction Module",
-    "license": "1.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Guy Irene",

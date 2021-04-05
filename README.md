@@ -16,7 +16,9 @@ $ php artisan migrate
 ## Basic Usage
 
 ```.blade.php
-{{ view('csat::layouts\icon') }}
+{{ view('csat::layouts\icon') }} 
+or
+@include('csat.layouts.icon')
 ```
 
 ### Support

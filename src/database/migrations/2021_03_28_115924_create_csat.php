@@ -15,7 +15,7 @@ class CreateCsat extends Migration
     public function up()
     {
         Schema::create('csats', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('first_name')->nullable();
             $table->string('middle_name')->nullable();
             $table->string('last_name')->nullable();
@@ -30,7 +30,7 @@ class CreateCsat extends Migration
         });
         
         Schema::create('csat_configs', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->unsignedInteger('enabled')->default('1');
             $table->string('link')->default('csat');
             $table->string('target')->default('_self');

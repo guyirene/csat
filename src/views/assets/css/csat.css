@@ -108,6 +108,7 @@ button.feel
   background: transparent !important;
   border: none;
   padding: .375rem .75rem;
+  box-shadow: none !important;
 }
 
 .error-msg
